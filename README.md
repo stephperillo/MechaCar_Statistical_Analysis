@@ -76,16 +76,20 @@ Production lot 3 may need a deeper examination in order to resolve the differenc
 For the next part of this project, I designed a study to quantify how the MechaCar performs against the competition. I considered different metrics that would be of interest to a consumer: cost, city or highway fuel efficiency, horse power, maintenance cost, and safety rating. 
 
 - What metric or metrics are you going to test?
+
 I would test city and highway fuel efficiency and maintenance cost.
 
 - What is the null hypothesis or alternative hypothesis?
+
 The null hypothesis would be: MechaCar has the same fuel efficiencies as competitors in the same class. 
 The alternative hypothesis is that the fuel efficiencies are not all the same for each car in the class.
 
 - What statistical test would you use to test the hypothesis? And why?
+
 I would use two-sample t-test because the success metrics are numerical (city and highway fuel efficiency) and the sample size is large. There are a number of other cars from different makers that are currently on the market to which we can compare the MechaCar. 
 
 - What data is needed to run the statistical test?
+
 In order to run the statistical test, the data needed includes the city fuel efficiency (city and highway mpgs), and maintenance cost (totals) for each car model. Maintenance cost data needed would include the cost for any repairs and other services needed. For current/next year newer models, there may not be as much data since these models most likely will not have needed much maintenance work performed.
 
 It would be interesting to see how MechaCar compares to other cars in fuel efficiency and maintenance cost.
