@@ -15,7 +15,8 @@ The following screenshot shows the results of the linear regression:
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
     - `vehicle_length` and `ground_clearance`
-    The Pr(>|t|)column in the summary shows the p-values. p-value represents the probability that each coefficient contributes a random amount of variance to the linear model. The p-values for `vehicle_length` and `ground_clearance` are very small (2.60 x $10^12$ and 5.21 x $10^8$ respectively) and much lower than 0.05%, which means that they were significant.  
+    
+The Pr(>|t|)column in the summary shows the p-values. p-value represents the probability that each coefficient contributes a random amount of variance to the linear model. The p-values for `vehicle_length` and `ground_clearance` are very small (2.60 x 10¹² and 5.21 x $10^8$ respectively) and much lower than 0.05%, which means that they were significant.  
 
 - Is the slope of the linear model considered to be zero? Why or why not?
     -   The slope is not considered to be zero because the r-squared ($r^2$) value is 0.7149, meaning there is a strong correlation between the variables.  
@@ -25,7 +26,7 @@ The following screenshot shows the results of the linear regression:
 
 ## Visualizations for the Trip Analysis 
 
->The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. 
+The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. 
 
 Using my knowledge of R, I created a summary statistics table to show:
 
@@ -35,11 +36,13 @@ Using my knowledge of R, I created a summary statistics table to show:
 I wrote an RScript that creates a total_summary dataframe using the summarize() function to get the mean, median, variance, and standard deviation of the suspension coil’s PSI column.
 
 This is the `total_summary` dataframe:
+
 ![total_summary](https://github.com/stephperillo/MechaCar_Statistical_Analysis/blob/main/Resources/total_summary.png)
 
 I then wrote an RScript that creates a `lot_summary` dataframe using the `group_by()` and the `summarize()` functions to group each manufacturing lot by the mean, median, variance, and standard deviation of the suspension coil’s PSI column.
 
 The following is the `lot_summary` dataframe:
+
 ![lot_summary](https://github.com/stephperillo/MechaCar_Statistical_Analysis/blob/main/Resources/lot_summary.png)
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. 
