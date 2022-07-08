@@ -16,7 +16,7 @@ The following screenshot shows the results of the linear regression:
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
     - `vehicle_length` and `ground_clearance`
     
-The Pr(>|t|)column in the summary shows the p-values. p-value represents the probability that each coefficient contributes a random amount of variance to the linear model. The p-values for `vehicle_length` and `ground_clearance` are very small (2.60 x 10¹² and 5.21 x $10^8$ respectively) and much lower than 0.05%, which means that they were significant.  
+The Pr(>|t|) column in the summary shows the p-values. p-value represents the probability that each coefficient contributes a random amount of variance to the linear model. The p-values for `vehicle_length` and `ground_clearance` are very small (2.60 x 10¹² and 5.21 x $10^8$ respectively) and much lower than 0.05%, which means that they were significant.  
 
 - Is the slope of the linear model considered to be zero? Why or why not?
     -   The slope is not considered to be zero because the r-squared ($r^2$) value is 0.7149, meaning there is a strong correlation between the variables.  
