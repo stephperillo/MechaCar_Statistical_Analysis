@@ -22,7 +22,7 @@ The Pr(>|t|) column in the summary shows the p-values. p-value represents the pr
     -   The slope is not considered to be zero because the r-squared ($r^2$) value is 0.7149, meaning there is a strong correlation between the variables.  
 
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-    - This linear model predicts mpg effectively; it predicts mpg 71.5 times out of 100, according to the r2 value. 
+    - This linear model predicts mpg effectively; it predicts mpg 71.5 times out of 100, according to the $r^2$ value. 
 
 ## Visualizations for the Trip Analysis 
 
