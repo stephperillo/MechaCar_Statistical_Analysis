@@ -59,7 +59,7 @@ The following shows the summary of the t-tests:
 
 ![t_test_total.png](https://github.com/stephperillo/MechaCar_Statistical_Analysis/blob/main/Resources/t_test_total.png)
 
-This p-value for all  is 0.5578, which is above above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis 
+This p-value for all  is 0.5578, which is above above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis. 
 
 The three individual t-tests for each lot:
 
